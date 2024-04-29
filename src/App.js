@@ -185,7 +185,6 @@ const App = () => {
             </ul> 
           </nav> 
           <div className="country-selector"> 
-            <label htmlFor="country-select">Select Country:</label> 
             <select id="country-select" onChange={handleCountryChange}> 
               {countries.map(country => ( 
                 <option key={country.code} value={country.code}>{country.name}</option> 
