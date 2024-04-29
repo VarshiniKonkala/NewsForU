@@ -14,7 +14,8 @@ header {
   align-items: center; 
   position: fixed; 
   top: 0; 
-  width: 100%; 
+  width: 100%;
+  overflow: auto;
 } 
 .logo a { 
   font-family: 'papyrus'; 
@@ -88,13 +89,12 @@ ul li p {
 } 
 
 ul li img { 
-  height:350px; 
-  width: 1000px; 
-  margin-left: 0px; 
-  margin-right: 5px; 
-  margin-top: 5px; 
-  align-items: center; 
-} 
+  width: 100%; 
+  margin-left: 0; 
+  margin-right: 0.5%; 
+  margin-top: 0.5%; 
+  align-items: center;
+}  
 
 ul li a { 
   color:black; 
@@ -108,8 +108,7 @@ ul li a {
   border-radius: 25px; 
 } 
 #login{ 
-  margin-left:30px; 
-  margin-right: 20px; 
+  margin-left:2%;  
 } 
 #logout{ 
   text-align: center; 
