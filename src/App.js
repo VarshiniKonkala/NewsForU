@@ -164,7 +164,7 @@ const App = () => {
       <div> 
         <header> 
           <div className="logo"> 
-            <Link to="/" style={{fontFamily:'papyrus'}}>NewsForU</Link> 
+            <Link to="/NewsForU" style={{fontFamily:'papyrus'}}>NewsForU</Link> 
           </div> 
           <nav> 
             <ul> 
@@ -211,7 +211,7 @@ const App = () => {
             ))} 
             <Route 
               key="business" 
-              path="/" 
+              path="/NewsForU" 
               element={<CategoryPage loggedInUser={loggedInUser} news={categorizedNews['BUSINESS']} setRecentlyViewedArticles={setRecentlyViewedArticles} recentlyViewedArticles={recentlyViewedArticles}/>} 
             /> 
             <Route 
