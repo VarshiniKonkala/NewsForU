@@ -77,7 +77,7 @@ const AuthPage = ({ handleLogin }) => {
         {error && <div className="error">{error}</div>} 
         <button type="submit">{isLogin ? 'Login' : 'Signup'}</button> 
         <p onClick={handleToggleAuth}> 
-          {isLogin ? <p>Don\'t have an account? <strong>Sign up</strong> here.</p> : <p>Already have an account?<strong>Log in</strong> here.</p>} 
+          {isLogin ? <p>Don't have an account? <strong>Sign up</strong> here.</p> : <p>Already have an account?<strong>Log in</strong> here.</p>} 
         </p> 
       </form> 
     </div> 
